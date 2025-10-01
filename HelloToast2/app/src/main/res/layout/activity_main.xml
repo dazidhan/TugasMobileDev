@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_browser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label_browser"
+        android:backgroundTint="@color/purple_500"
+        app:cornerRadius="20dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label_toast"
+        android:backgroundTint="@color/purple_500"
+        app:cornerRadius="20dp"/>
+
+    <TextView
+        android:id="@+id/show_count"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/count_initial_value"
+        android:textSize="160sp"
+        android:background="#FFFF00"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label_count"
+        android:backgroundTint="@color/purple_500"
+        app:cornerRadius="20dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_switchpage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label_pindah"
+        android:backgroundTint="@color/purple_500"
+        app:cornerRadius="20dp"/>
+
+</LinearLayout>

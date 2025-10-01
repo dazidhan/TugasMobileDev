@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label_toast"
+        android:backgroundTint="#3DCE0C"
+        app:cornerRadius="20dp"/>
+
+    <TextView
+        android:id="@+id/show_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/count_initial_value"
+        android:textSize="160sp"
+        android:gravity="center"
+        android:background="#FFFF00"
+        android:layout_below="@id/button_toast"
+        android:layout_marginTop="30dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label_count"
+        android:backgroundTint="#3DCE0C"
+        app:cornerRadius="20dp"
+        android:layout_toRightOf="@id/button_toast"
+        android:layout_marginLeft="50dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_browser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label_browser"
+        android:backgroundTint="#3DCE0C"
+        app:cornerRadius="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_switchpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label_pindah"
+        android:backgroundTint="#3DCE0C"
+        app:cornerRadius="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
