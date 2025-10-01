@@ -7,7 +7,7 @@ Membaca materi dan mengerjakan modul **Activity** pada mata kuliah Mobile Develo
 Tambahkan screenshot hasil pengerjaan di bawah ini:
 
 <p align="center">
-  <img src="assets/ss1.png" alt="Screenshot 1" width="150"/>
-  <img src="assets/ss2.png" alt="Screenshot 2" width="150"/>
-  <img src="assets/ss2.png" alt="Screenshot 2" width="150"/>
+  <img src="https://github.com/dazidhan/TugasMobileDev/blob/main/HelloToast2/assetFoto/ssHasil1.jpeg" alt="Screenshot 1" width="150"/>
+  <img src="https://github.com/dazidhan/TugasMobileDev/blob/main/HelloToast2/assetFoto/ssHasil2.jpeg" alt="Screenshot 2" width="150"/>
+  <img src="https://github.com/dazidhan/TugasMobileDev/blob/main/HelloToast2/assetFoto/ssHasil3.jpeg" alt="Screenshot 2" width="150"/>
 </p>
